@@ -6,7 +6,8 @@ h1 {font-weight: 1200;}
 
 h1, p {
 	color: black; 
-	font-family: "Helvetica Neue";}
+	font-family: "Helvetica Neue";
+font-weight: 1200;}
 
 img {
     width: 100%;
