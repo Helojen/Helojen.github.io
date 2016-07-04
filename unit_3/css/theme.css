@@ -1,7 +1,7 @@
 
 body {
 	background-color: rgb(0,255,145); 
-background: ("https://mir-s3-cdn-cf.behance.net/project_modules/hd/83c92040154587.5773ff5dc0051.png")}
+background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/hd/83c92040154587.5773ff5dc0051.png")}
 
 h1, p {
 	color: white; 
