@@ -38,7 +38,7 @@ h1 {font-weight: lighter;}
 
 p { font-size: 20px;}
 
-#contact { font-size: 14px; }
+#contact, #author { font-size: 14px; }
 
 
 
@@ -57,7 +57,7 @@ p { font-size: 20px;}
 
     position: absolute;
     display:block;
-    top: 17em;
+    top: 15em;
     left: 0;
    
    -webkit-column-count: 5;
