@@ -8,19 +8,17 @@ div {background-color: #FFE2B8;}*/
 body {
 	background-color: white; 
 /*background-color: rgb(0,255,145); */
-background-image: url("images/background.png");
+/*background-image: url("images/background.png");
 
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
 background-attachment: fixed;
-
+*/
 }
 
 
-h1{ 
-	font-size:50px;
-}
+
 
 .bold {
 	font-weight:bold;
@@ -38,6 +36,9 @@ h1{
 	
 }
 
+h1{ 
+  font-size:50px;
+}
 
 h1 {font-weight: lighter;} 
 
@@ -66,12 +67,12 @@ opacity:0.3;}
     top: 15em;
     left: 0;
    
-   /*-webkit-column-count: 5;
+   -webkit-column-count: 5;
    -webkit-column-gap:   0px;
    -moz-column-count:    5;
    -moz-column-gap:      0px;
    column-count:         5;
-   column-gap:           0px;*/
+   column-gap:           0px;
 }
 
 #photos img {
@@ -98,13 +99,13 @@ opacity:0.3;}
   column-count:         3;
   }
 }
-/*@media (max-width: 800px) {
+@media (max-width: 800px) {
   #photos {
   -moz-column-count:    2;
   -webkit-column-count: 2;
   column-count:         2;
   }
-}*/
+}
 @media (max-width: 800px) {
   #photos {
   	
@@ -121,46 +122,51 @@ opacity:0.3;}
 
 }
 
+
+
 .content {
 	overflow:hidden;
 }
 img:hover { cursor: pointer;}
- 
 
+
+/*=======================================================*/ 
 
 #two_column {
-    background-color: #FFB7CF;
+   ;
     border: 1px black solid;
     padding: 20px;
+   align:center;
 }
 
 #left {
-    background-color: #E582A2;
+    ;
     border: 1px black solid;
     padding: 20px;
 }
 
-#right {
-    background-color: #E55B88;
-    border: 1px black solid;
-    padding: 20px;
-}
- 
 
- #left {
-    background-color: violet;
+#left {
+  ;
     border: 1px black solid;
-    padding: 20px;
+    padding: 10px;
     float: left;
-    width: 30%;
+    width: 10%;
 }
 
 #right {
-    background-color: pink;
+   display:block;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+#right {
+   ;
     border: 1px black solid;
     padding: 20px;
     float: right;   
-    width: 62%;
+    width: 80%;
 }
 
 .clearfix:after {
@@ -171,6 +177,11 @@ img:hover { cursor: pointer;}
     clear: both;
     height: 0;
 }
+
+/*=======================================================*/ 
+
+
+#footer{clear:both;}
 
 
 
