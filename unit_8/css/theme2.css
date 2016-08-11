@@ -1,0 +1,121 @@
+
+body {
+	background-color: white; 
+/*background-color: rgb(0,255,145); */
+/*background-image: 
+url("http://bit.ly/29J8oyu")*/;
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+
+
+}
+
+.bodyText {
+	font-weight: lighter;
+
+}
+
+h1, p {
+	color: black; 
+	text-align: center;
+	font-family: "Helvetica Neue";
+font-weight: bold;}
+
+h1 {font-weight: lighter;} 
+
+p { font-size: 14px; }
+
+
+/*===============Image Grid================*/
+
+
+
+
+.grid {
+
+	
+
+	position:absolute;
+	left:0;
+	right:0;
+
+   line-height: 0;
+
+   width:100%;
+
+
+   -webkit-column-count: 5;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    5;
+   -moz-column-gap:      0px;
+   column-count:         5;
+   column-gap:           0px;
+}
+
+
+.content{overflow:hidden;}
+
+.grid img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+
+
+}
+
+
+@media (max-width: 1200px) {
+  .grid {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  .grid {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  .grid {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  .grid {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+
+.content img:hover {
+
+  transform:scale(1.05);
+
+
+}
+
+
+
+
+
+
+
+
+/*GROW*/
+ 
+
+
+
+
+
+

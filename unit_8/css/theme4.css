@@ -1,0 +1,185 @@
+/*
+header {background-color: #FFED74;}
+nav {background-color:#E8C66A;}
+section {background-color: #FFC675;}
+footer { background-color: #FF957E;}
+div {background-color: #FFE2B8;}*/
+
+body {
+	background-color: white; 
+/*background-color: rgb(0,255,145); */
+/*background-image: url("images/background.png");
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+*/
+}
+
+
+
+
+.bold {
+	font-weight:bold;
+}
+
+.bodytext, h1, p {
+	
+	color:#282828; 
+	text-align: center;
+	font-family: "Helvetica Neue";
+	font-weight: 200;
+	letter-spacing: .25px;
+	line-height: 1.3em;
+
+	
+}
+
+h1{ 
+  font-size:50px;
+}
+
+h1 {font-weight: lighter;} 
+
+p { font-size: 20px;}
+
+#contact, #author { font-size: 14px; 
+opacity:0.3;}
+
+
+
+
+
+
+/*===============Image Grid================*/
+
+
+#photos {
+   /* Prevent vertical gaps */
+   line-height: 0;
+
+  /*  position: absolute;*/
+    display:block;
+    top: 15em;
+    left: 0;
+   
+   -webkit-column-count: 5;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    5;
+   -moz-column-gap:      0px;
+   column-count:         5;
+   column-gap:           0px;
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+
+
+@media (max-width: 2000px) {
+  #photos {
+ 
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photos {
+  	
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  	
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+.content img:hover {
+
+    opacity:0.3;
+    transition:all.3s;
+
+}
+
+
+
+.content {
+	overflow:hidden;
+}
+img:hover { cursor: pointer;}
+
+
+/*=======================================================*/ 
+
+#two_column {
+   ;
+    border: 1px black solid;
+    padding: 20px;
+   align:center;
+}
+
+#left {
+    ;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+#left {
+  ;
+    border: 1px black solid;
+    padding: 10px;
+    float: left;
+    width: 10%;
+}
+
+#right {
+   display:block;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+#right {
+   ;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 80%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/*=======================================================*/ 
+
+
+#footer{clear:both;}
+
+
+
+
