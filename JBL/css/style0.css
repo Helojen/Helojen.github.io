@@ -135,7 +135,7 @@ opacity:0.3;}
   column-count:         4;
   }
 }
-@media (max-width: 1200px) {
+/*@media (max-width: 1200px) {
   .white { display:none;}
   #photos {
   	
@@ -144,7 +144,7 @@ opacity:0.3;}
   column-count:         3;
 }
 
-}
+}*/
 
 @media (max-width: 1000px) {
   #photos {
