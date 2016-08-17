@@ -102,6 +102,7 @@ opacity:0.3;}
     margin: 0% 1% 0% 1%;
 }
 
+
 /*===============Image Grid================*/
 
 
@@ -247,12 +248,15 @@ border: 1px black solid;
 #footer{clear:both;
 text-align:center;
 margin-bottom:3%;
+padding-left:1.5%;
 font-size:12px;
 color:#282828; 
   font-family: "Helvetica Neue";
   font-weight: 200;
   letter-spacing: 5px;
   line-height: 1.5em;}
+
+
 
 
 
@@ -281,6 +285,7 @@ margin:auto;
 
 
 }
+
 
 
 
